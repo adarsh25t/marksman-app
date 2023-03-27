@@ -16,7 +16,7 @@ body {
 header {
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 15px;
   border-bottom: 1px solid rgb(202, 2, 2);
 }
 header img {
@@ -130,11 +130,34 @@ header img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
 }
-.container5_wrapper h1{
-  font-size: 110px;
-  text-align: center;
-  font-family: 'Poppins', sans-serif;
-  color: red;
-  font-weight: bolder;
+.container5_wrapper img {
+  padding-top: 30px;
+}
+
+/* Container4 */
+.container4_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.section_1 {
+  display: flex;
+  justify-content: space-evenly;
+}
+.section_2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.section_3 img{
+  float: right;
+  margin-right: 200px;
+}
+.section_4 img {
+  margin-left: 200px;
 }

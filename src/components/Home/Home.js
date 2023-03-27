@@ -6,6 +6,7 @@ import bgimage from '../../images/7041414.jpg'
 import Container2 from './Container2'
 import Container3 from './Container3'
 import Container5 from './Container5'
+import Container4 from './Container4'
 
 const Home = () => {
   return (
@@ -14,8 +15,10 @@ const Home = () => {
         <Container1/>
         <Container2/>
         <Container3/>
+        <Container4/>
+        <Cards title={'the stuff wed id'}/>
         <Container5/>
-        {/* <Cards title={'the stuff wed id'}/>
+        {/*
         <Cards title={'All Projects'}/> */}
     </div>
    
