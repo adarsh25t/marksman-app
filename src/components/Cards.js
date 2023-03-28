@@ -17,7 +17,7 @@ const Cards = ({title}) => {
         },
         tablet: {
           breakpoint: { max: 1024, min: 464 },
-          items: 3
+          items: 2
         },
         mobile: {
           breakpoint: { max: 464, min: 0 },
@@ -27,7 +27,7 @@ const Cards = ({title}) => {
 
   return (
     <>
-        <h3 className='text-center'>{title}</h3>
+        <h3 className='text-center mt-5'>{title}</h3>
         <Carousel 
             responsive={responsive} 
             className="carousel_wrapper">
