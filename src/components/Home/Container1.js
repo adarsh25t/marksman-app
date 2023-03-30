@@ -30,7 +30,7 @@ const img3 = {
   hidden: { opacity: 0,y:300 },
   show: {
     opacity: 1,
-    y:0,
+    y:-50,
     transition: {
       type: "spring", stiffness: 200, delay: 0.8
     }

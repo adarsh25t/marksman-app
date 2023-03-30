@@ -11,6 +11,13 @@ body {
   background-position: center;
 }
 
+.title {
+  font-family: 'Poppins', sans-serif;
+  color: rgb(185, 0, 0);
+  font-size: 40px;
+  font-weight: bold;
+}
+
 /* header */
 header {
   display: flex;
@@ -112,17 +119,22 @@ header img {
 }
 
 /* Container2 */
+
 .container2_wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  margin-top: 100px;
 }
 .container2_wrapper p {
   width: 50%;
   font-family: 'Poppins', sans-serif;
   color: red;
+}
+.about_image {
+  width: 300px;
+  height: 300px;
+  background-color: aliceblue;
 }
 @media screen and (max-width:720px) {
   .container2_wrapper {
